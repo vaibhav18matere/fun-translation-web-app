@@ -10,7 +10,7 @@ getTranslationURL = (input) => {
 
 errorHandler = (error) => {
     console.log("error ocuured", error);
-    alert("something went wrong");
+    alert("something went wrong : try later");
 }
 
 clickHandler = () => {
@@ -30,4 +30,3 @@ clickHandler = () => {
 }
 
 btnTranslator.addEventListener("click", clickHandler)
-
