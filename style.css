@@ -1,18 +1,15 @@
-body{
-background-color: aliceblue;
+:root{
+    --primary-color: #3a54b3;
+    --secondary-color: white;
 }
-
-img {
-    display: block;
-    border: 1px solid red;
-    border-radius: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-  }
-
-h1{
+body{
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: aliceblue;
     text-align: center;
+    background-image: url(./Images//pirate.jpg);
+    background-repeat: no-repeat;
 }
 
 #txt-input{
@@ -23,11 +20,14 @@ h1{
 }
 
 #output{
-    border: 1px solid black;
+    border: 2px solid var(--primary-color);
     height: 10vh;
     width: 90%;
     margin-top: 1rem;
 }
 button{
-    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    background-color: var(--primary-color);
 }
