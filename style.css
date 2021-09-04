@@ -1,33 +1,44 @@
-:root{
-    --primary-color: #3a54b3;
-    --secondary-color: white;
+*{
+    background-color:rgb(167, 103, 74);
+    text-align: center;
 }
-body{
-    margin: 0;
+h1{    
+    margin: 1rem;
+    padding: 1.2rem;
+}
+
+textarea {
+    width: 50%;
+    height: 15vh;
     padding: 1rem;
-    box-sizing: border-box;
-    background-color: aliceblue;
-    text-align: center;
-    background-image: url(./Images//pirate.jpg);
-    background-repeat: no-repeat;
-}
-
-#txt-input{
-    width: 90%;
-    height: 10vh;
+    background-color: #fff;
+    border-radius: 1rem;
     display: block;
-    margin-bottom: 1rem;
+    margin: auto;
+    border: none;
 }
 
-#output{
-    border: 2px solid var(--primary-color);
-    height: 10vh;
-    width: 90%;
-    margin-top: 1rem;
+#output {
+    display: block;
+    height: 15vh;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: none;
 }
-button{
+#btn-translate{
+    display: block;
+    height: 15vh;
+    width: 50%;
+    border-radius: 0.5rem;
+    border: none;
+    margin: auto;
+    padding: 1.2rem;
+    font-size: large;
+}
+
+footer{
     text-align: center;
-    color: white;
-    font-size: larger;
-    background-color: var(--primary-color);
 }
