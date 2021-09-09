@@ -36,3 +36,21 @@ textarea , #output {
     color: white;
 }
 
+footer p {
+    font-size: larger;
+  }
+  
+.footer-list {
+    margin: 1rem;
+  }
+  
+a, img, li{
+    display: inline;
+    margin: 0.25rem;
+}
+  
+img {
+    width: 40px;
+    padding: 1rem 0.2rem;
+}  
+
